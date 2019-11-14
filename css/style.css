@@ -1,0 +1,196 @@
+@import "reset.css";
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.topbar {
+  width: 100%;
+  margin-left: 6px;
+}
+
+.statusbar {
+  width: 100%;
+}
+
+.statusbar .arrow {
+  display: inline-block;
+  text-align: left;
+  width: 15%;
+  padding-left: 16px;
+  margin-right: -4px;
+  padding-top: 16px;
+}
+
+.statusbar .stop {
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  width: 70%;
+  margin-right: -4px;
+  padding-top: 14px;
+  top: -2px;
+}
+
+
+.statusbar .menu {
+  display: inline-block;
+  position: fixed;
+  text-align: right;
+  width: 15%;
+  padding-right: 14px;
+  margin-right: -4px;
+  margin-top: 15px;
+}
+
+h2 {
+	font-size: 22px;
+	font-weight: normal;
+}
+
+.header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  height: 137px;
+  background-color: #FAFAFA;
+  z-index: 100;
+}
+
+.time {
+  font-weight: normal;
+  font-size: 18px;
+  width: 100%;
+  position: fixed;
+  box-sizing: border-box;
+  padding-right: 17px;
+}
+
+.time label {
+  display: inline-block;
+  text-align: left;
+  width: 22%;
+  padding-left: 17px;
+  padding-top: 25px;
+}
+
+.time input {
+  font-family: Arial, sans-serif;
+  display: inline-block;
+  width: 75%;
+  margin-top: 20px;
+  padding-left: 9px;
+  height: 36px;
+  position: fixed;
+  font-size: 14px;
+  border: 1px solid #D1D0D0;
+  border-radius: 5px;
+}
+
+.resizedTextbox {
+	background-color: #FCFCFC;
+}
+
+body {
+	background-color: #FFFFFF;
+  margin-bottom: 50px;
+  margin-top: 137px;
+  margin-left: 0px;
+  margin-right: 0px;
+  font-family: Verdana, sans-serif;
+}
+
+#map {
+	padding-bottom: 0px;
+}
+
+#map img {
+  width: 100%;
+  display: block;
+}
+
+#routes {
+  border-top: 1px solid #DBDBDB;
+  margin-bottom: 15px;
+}
+
+.row {
+  width: 100%;
+  background-color: #FFFFFF;
+  padding-top: 10px;
+  padding-bottom: 16px;
+  border-bottom: 1px solid #DBDBDB;
+}
+
+.row p {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+}
+
+.row h2 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 14px;
+}
+
+.row .left {
+  width: 14%;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding-left: 16px;
+  top: 6px;
+}
+
+.row .left p {
+  font-size: 14px;
+}
+
+.row .center {
+  width: 65%;
+  display: inline-block;
+  text-align: left;
+  padding-left: 10px;
+  margin-bottom: 1px;
+}
+
+.row .right {
+  width: 17%;
+  box-sizing: border-box;
+  display: inline-block;
+  text-align: right;
+  vertical-align: top;
+  margin-top: 7px;
+  margin-left: -11px;
+}
+
+.right p {
+  font-size: 14px;
+}
+
+.bottom-menu {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  height: 51px;
+  background-color: #FAFAFA;
+  font-size: 10px;
+  padding-top: 4px;
+  border-top: 1px solid #DBDBDB;
+}
+
+.bottom-menu a {
+  text-align: center;
+  display: inline-block;
+  width: 33%;
+  margin-right: -4px;
+  text-decoration: none;
+  color: black;
+}
+
+.bottom-menu a span {
+  display: block;
+}
