@@ -98,7 +98,7 @@ body {
   margin-top: 137px;
   margin-left: 0px;
   margin-right: 0px;
-  font-family: system-ui;
+  font-family: -apple-system, BlinkMacSystemFont, sans-serif;
 }
 
 #map {
